@@ -1,0 +1,9 @@
+#include <stdio.h>#include <string.h>intmain(){
+char input Array[100], reversed Array[100];printf("Enter the string for palindrome check \n");scanf("%s",input Array);
+strcpy(reversed Array, input Array);strrev(reversedArray);
+if(strcmp(input Array, reversed Array) == 0 )printf("%sisapalindrome.\n",inputArray);
+else
+printf("%s is not a palindrome.\n", inputArray);getch();
+return0;
+
+}
