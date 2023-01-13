@@ -1,0 +1,10 @@
+#include <stdio.h>intmain()
+{
+
+floatradius,diameter,circumference,area;printf("Enterradiusofcircle: ");
+scanf("%f", &radius);diameter=2*radius;
+circumference = 2 * 3.14 * radius;area=3.14*(radius*radius);
+printf("Diameterofcircle=%.2funits\n",diameter);
+printf("Circumference of circle = %.2f units \n",circumference);
+printf("Areaofcircle=%.2fsq.units",area);return0;
+}
