@@ -1,0 +1,19 @@
+#include<stdio.h>#include<conio.h>voidmain(){
+char string1[25],string2[25];intl;
+clrscr();
+Printf("***** performing string length ******\n");Printf("enter only one string \n");Scanf("%s",string1);
+l=strlen(string1);
+printf("thestringlengthis%d\n\n",l);
+printf("**** performing string concatenation ****\n");printf("entertwostrings\n");scanf("%s%s",string1,string2);
+printf("theconcatenatedstringis
+%s\n\n",strcat(string1,string2));
+printf("***** performing string compare *****\n");printf("entertwostrings\n");scanf("%s%s",string1,string2);if(strcmp(string1,string2)==0)
+ 
+printf("strings are equal\n");else
+printf("stringsarenotequal\n");
+printf("*** performing string copy ****\n");printf("enter the two strings\n");scanf("%d%d",string1,string2);
+printf("thefirststringis%sandsecondstringis
+%s\n",string1,string2);strcpy(string1,string2);
+printf("thefirststringis%sandsecondstringis
+%s\n",string1,string2);getch();}
+
