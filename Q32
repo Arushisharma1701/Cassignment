@@ -1,0 +1,38 @@
+#include <stdio.h>voidmain()
+{
+
+int arr1[100], arr2[100];inti, n;
+printf("Inputthenumberofelementsto bestoredinthearray:");
+scanf("%d",&n);
+printf("Input%delementsinthearray:\n",n);for(i=0;i<n;i++)
+{
+
+printf("element-%d:",i);
+scanf("%d",&arr1[i]);
+}
+
+for(i=0;i<n;i++)
+{
+
+arr2[i]=arr1[i];
+}
+
+printf("\nTheelementsstoredinthefirstarrayare:\n");
+ 
+for(i=0;i<n;i++)
+{
+
+printf("%5d",arr1[i]);
+}
+
+printf("\n\nTheelementscopiedintothe secondarrayare
+:\n");
+for(i=0;i<n;i++)
+{
+
+printf("%5d",arr2[i]);
+}
+printf("\n\n");
+}
+
+
