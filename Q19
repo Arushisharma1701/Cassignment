@@ -1,0 +1,9 @@
+#include<stdio.h>int main()
+{
+
+intfact=1,n;printf("Enteranumber");scanf("%d",&n);
+for(inti=1;i<=n;i++)fact=fact*i;printf("%d",fact);
+}
+
+
+
