@@ -1,0 +1,13 @@
+#include<stdio.h>intmain(){
+intnum;
+printf("Enter any number: ");scanf("%d",&num);
+switch (num > 0){case1:
+printf("%dispositive.",num);break;
+case0:
+switch (num < 0) {case1:
+printf("%d is negative.", num);break;
+case0:
+printf("%d is zero.", num);break;}
+break;}return 0;}
+ 
+ 
